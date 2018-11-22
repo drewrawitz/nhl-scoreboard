@@ -8,6 +8,19 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "reset-css": "^4.0.1",
+    "autoprefixer": "^9.3.1",
+    "postcss-apply": "^0.11.0",
+    "postcss-calc": "^6.0.1",
+    "postcss-custom-media": "^6.0.0",
+    "postcss-hexrgba": "^1.0.1",
+    "postcss-import": "^12.0.0",
+    "postcss-inline-svg": "^3.1.1",
+    "postcss-modules": "^1.4.1",
+    "postcss-nested": "^3.0.0",
+    "postcss-pxtorem": "^4.0.1",
+    "postcss-responsive-type": "^1.0.0",
+    "postcss-simple-vars": "^4.1.0",
     "vue": "^2.5.17"
   },
   "devDependencies": {
@@ -31,11 +44,6 @@
     "rules": {},
     "parserOptions": {
       "parser": "babel-eslint"
-    }
-  },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
     }
   },
   "browserslist": [

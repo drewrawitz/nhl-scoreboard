@@ -1,0 +1,26 @@
+@import 'reset-css';
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  background-image: url(../img/bg.png);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.l-container {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 0 20px;
+  text-align: center;
+}
