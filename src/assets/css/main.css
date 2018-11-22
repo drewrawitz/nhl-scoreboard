@@ -1,5 +1,9 @@
 @import 'reset-css';
 
+:root {
+  --scoreboard-border: #4a4a4a;
+}
+
 html {
   box-sizing: border-box;
 }

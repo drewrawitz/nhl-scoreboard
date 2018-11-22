@@ -1,0 +1,187 @@
+[{
+  "name": "Anaheim Ducks",
+  "teamID": "ANA",
+  "color": "#FC4C02",
+  "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/72/Anaheim_Ducks.svg/220px-Anaheim_Ducks.svg.png"
+},
+{
+  "name": "Arizona Coyotes",
+  "teamID": "ARI",
+  "color": "#862633",
+  "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Arizona_Coyotes.svg/220px-Arizona_Coyotes.svg.png"
+},
+{
+  "name": "Boston Bruins",
+  "teamID": "BOS",
+  "color": "#FFB81C",
+  "logo": "https://sportslogohistory.com/wp-content/uploads/2016/SLH/nhl_primary/boston_bruins.png"
+},
+{
+  "name": "Buffalo Sabres",
+  "teamID": "BUF",
+  "color": "#041E42",
+  "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Buffalo_Sabres_Logo.svg/220px-Buffalo_Sabres_Logo.svg.png"
+},
+{
+  "name": "Calgary Flames",
+  "teamID": "CGY",
+  "color": "#F1BE48",
+  "logo": "http://www.stickpng.com/assets/images/5a4fbb11da2b4f099b95da08.png"
+},
+{
+  "name": "Carolina Hurricanes",
+  "teamID": "CAR",
+  "color": "#C8102E",
+  "logo": "http://www.stickpng.com/assets/images/5a4fbb18da2b4f099b95da09.png"
+},
+{
+  "name": "Chicago Blackhawks",
+  "teamID": "CHI",
+  "color": "#CC8A00",
+  "logo": "http://www.stickpng.com/assets/images/5a4fbb20da2b4f099b95da0a.png"
+},
+{
+  "name": "Colorado Avalanche",
+  "teamID": "COL",
+  "color": "#236192",
+  "logo": "http://www.stickpng.com/assets/images/5a4fbb29da2b4f099b95da0b.png"
+},
+{
+  "name": "Columbus Blue Jackets",
+  "teamID": "CBJ",
+  "color": "#041E42",
+  "logo": "http://www.stickpng.com/assets/images/5a4fbb32da2b4f099b95da0c.png"
+},
+{
+  "name": "Dallas Stars",
+  "teamID": "DAL",
+  "color": "#006341",
+  "logo": "http://www.stickpng.com/assets/images/5a4fbb39da2b4f099b95da0d.png"
+},
+{
+  "name": "Detroit Red Wings",
+  "teamID": "DET",
+  "color": "#C8102E",
+  "logo": "http://www.stickpng.com/assets/images/5a4fbb41da2b4f099b95da0e.png"
+},
+{
+  "name": "Edmonton Oilers",
+  "teamID": "EDM",
+  "color": "#00205B",
+  "logo": "http://www.stickpng.com/assets/images/5a4fbb49da2b4f099b95da0f.png"
+},
+{
+  "name": "Florida Panthers",
+  "teamID": "FLA",
+  "color": "#B9975B",
+  "logo": "http://www.stickpng.com/assets/images/5a4fbb52da2b4f099b95da10.png"
+},
+{
+  "name": "Los Angeles Kings",
+  "teamID": "LAK",
+  "color": "#A2AAAD",
+  "logo": "http://www.stickpng.com/assets/images/5a4fbb5ada2b4f099b95da11.png"
+},
+{
+  "name": "Minnesota Wild",
+  "teamID": "MIN",
+  "color": "#154734",
+  "logo": "http://www.stickpng.com/assets/images/5a4fbb61da2b4f099b95da12.png"
+},
+{
+  "name": "Montreal Canadiens",
+  "teamID": "MTL",
+  "color": "#001E62",
+  "logo": "http://www.stickpng.com/assets/images/5a4fbb6ada2b4f099b95da13.png"
+},
+{
+  "name": "Nashville Predators",
+  "teamID": "NSH",
+  "color": "#FFB81C",
+  "logo": "http://www.stickpng.com/assets/images/5a4fbb73da2b4f099b95da14.png"
+},
+{
+  "name": "New Jersey Devils",
+  "teamID": "NJD",
+  "color": "#010101",
+  "logo": "http://www.stickpng.com/assets/images/5a4fbb83da2b4f099b95da16.png"
+},
+{
+  "name": "New York Islanders",
+  "teamID": "NYI",
+  "color": "#FC4C02",
+  "logo": "http://www.stickpng.com/assets/images/5a4fbb8ada2b4f099b95da17.png"
+},
+{
+  "name": "New York Rangers",
+  "teamID": "NYR",
+  "color": "#C8102E",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/New_York_Rangers.svg/2000px-New_York_Rangers.svg.png"
+},
+{
+  "name": "Ottawa Senators",
+  "teamID": "OTT",
+  "color": "#C8102E",
+  "logo": "http://www.stickpng.com/assets/images/5a4fbb9ada2b4f099b95da19.png"
+},
+{
+  "name": "Philadelphia Flyers",
+  "teamID": "PHI",
+  "color": "#FA4616",
+  "logo": "http://www.stickpng.com/assets/images/5a4fbba3da2b4f099b95da1a.png"
+},
+{
+  "name": "Pittsburgh Penguins",
+  "teamID": "PIT",
+  "color": "#010101",
+  "logo": "http://www.stickpng.com/assets/images/5a4fbbadda2b4f099b95da1b.png"
+},
+{
+  "name": "San Jose Sharks",
+  "teamID": "SJS",
+  "color": "#006272",
+  "logo": "http://www.stickpng.com/assets/images/5a4fbbb7da2b4f099b95da1c.png"
+},
+{
+  "name": "St. Louis Blues",
+  "teamID": "STL",
+  "color": "#041E42",
+  "logo": "http://www.stickpng.com/assets/images/5a4fbbbfda2b4f099b95da1d.png"
+},
+{
+  "name": "Tampa Bay Lightning",
+  "teamID": "TBL",
+  "color": "#00205B",
+  "logo": "http://www.stickpng.com/assets/images/5a4fbbc8da2b4f099b95da1e.png"
+},
+{
+  "name": "Toronto Maple Leafs",
+  "teamID": "TOR",
+  "color": "#00205B",
+  "logo": "http://www.stickpng.com/assets/images/5a4fbbd0da2b4f099b95da1f.png"
+},
+{
+  "name": "Vancouver Canucks",
+  "teamID": "VAN",
+  "color": "#97999B",
+  "logo": "https://cdn.freebiesupply.com/logos/large/2x/vancouver-canucks-3-logo-png-transparent.png"
+},
+{
+  "name": "Vegas Golden Knights",
+  "teamID": "VGK",
+  "color": "#B4975A",
+  "logo": "http://www.stickpng.com/assets/images/5a4fbbe1da2b4f099b95da21.png"
+},
+{
+  "name": "Washington Capitals",
+  "teamID": "WSH",
+  "color": "#A6192E",
+  "logo": "http://www.stickpng.com/assets/images/5a4fbbeada2b4f099b95da22.png"
+},
+{
+  "name": "Winnipeg Jets",
+  "teamID": "WPG",
+  "color": "#C8102E",
+  "logo": "http://www.stickpng.com/assets/images/5a4fbbf2da2b4f099b95da23.png"
+}
+]
