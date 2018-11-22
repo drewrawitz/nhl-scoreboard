@@ -1,11 +1,9 @@
 <template>
   <div id="app">
     <Scoreboard
-      :team1="teams[1].data"
-      :team2="teams[2].data"
-      :team1Score="teams[1].score"
-      :team2Score="teams[2].score"
+      :teams="teams"
       :period="period"
+      :goal="goal"
       :timeRemaining="timeRemaining"
       :powerplay="powerplay"
       :powerplayRemaining="powerplayRemaining"
@@ -74,6 +72,7 @@ export default {
           score: 0,
         },
       },
+      goal: 0,
       period: 1,
       timeRemaining: 900,
       timeInterval: null,
@@ -84,7 +83,13 @@ export default {
   methods: {
     addGoal(index) {
       this.teams[index].score = this.teams[index].score + 1;
+      this.goal = index;
       this.stopTime();
+
+      setTimeout(() => {
+        this.goal = 0;
+        this.powerplay = 0;
+      }, 2500);
     },
     removeGoal(index) {
       this.teams[index].score = this.teams[index].score - 1;

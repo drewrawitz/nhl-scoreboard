@@ -1,19 +1,19 @@
 <template>
   <section class="scoreboard">
-    <div class="group group--team1" :style="`background-color: ${team1.color}; background-image: url(${team1.logo})`">
-      <div class="team">{{ team1.teamID }}</div>
-      <div class="score">{{ team1Score }}</div>
-      <div v-if="powerplay === 1" class="powerplay">
-        <span>Power Play</span>
-        <span>{{ getTime(this.powerplayRemaining) }}</span>
+    <div
+      v-for="(team, index) in teams"
+      :key="team.data.teamID"
+      :class="`group group--team${index}`"
+      :style="`background-color: ${team.data.color}; background-image: url(${team.data.logo})`"
+    >
+      <div class="team">{{ team.data.teamID }}</div>
+      <div class="score">{{ team.score }}</div>
+      <div v-if="parseInt(goal) === parseInt(index)" class="team-info team-info--goal">
+        <span>Goal!</span>
       </div>
-    </div>
-    <div class="group group--team2" :style="`background-color: ${team2.color}; background-image: url(${team2.logo})`">
-      <div class="team">{{ team2.teamID }}</div>
-      <div class="score">{{ team2Score }}</div>
-      <div v-if="powerplay === 2" class="powerplay">
+      <div v-else-if="parseInt(powerplay) === parseInt(index)" class="team-info team-info--powerplay">
         <span>Power Play</span>
-        <span>{{ getTime(this.powerplayRemaining) }}</span>
+        <span>{{ getTime(powerplayRemaining) }}</span>
       </div>
     </div>
     <div class="group group--time">
@@ -26,13 +26,8 @@
 <script>
   export default {
     props: {
-      team1: Object,
-      team2: Object,
-      team1Score: {
-        type: Number,
-        default: 0,
-      },
-      team2Score: {
+      teams: Object,
+      goal: {
         type: Number,
         default: 0,
       },
@@ -115,7 +110,7 @@
   padding-left: 20px;
 }
 
-.powerplay {
+.team-info {
   position: absolute;
   top: 100%;
   left: -2px;
@@ -124,15 +119,18 @@
   z-index: 100;
   border-top: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
   padding: 10px;
   letter-spacing: -0.3px;
-  /* border: 2px solid rgba(0, 0, 0, 0.25); */
   border: 2px solid var(--scoreboard-border);
   border-top: 0;
+
+  &--powerplay {
+    justify-content: space-between;
+  }
 }
 
 .group--team1 {
