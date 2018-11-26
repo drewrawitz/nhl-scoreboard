@@ -135,13 +135,11 @@
 
 .group--team1 {
   background-color: #1c4048;
-  background-image: url(../assets/img/tl_sharks.png);
   border-right: 2px solid var(--scoreboard-border);
 }
 
 .group--team2 {
   background-color: #da6d17;
-  background-image: url(../assets/img/tl_oilers.png);
   border-right: 2px solid var(--scoreboard-border);
 }
 
